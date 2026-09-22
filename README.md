@@ -19,7 +19,13 @@ Projet à la fois pédagogique (structures de données, algorithmie) et applicat
 
 ## 🚀 Démo
 
-_Captures à ajouter : lancer `Animation` sur un labyrinthe du dossier `bench/` et faire une capture de la fenêtre pendant et après la résolution._
+**Résolution de labyrinthes** (`Animation`, classe lancée sur tous les fichiers `.maze` de `bench/`) : point de départ en cyan, sortie en rose, distances de Dijkstra annotées sur chaque case, chemin le plus court tracé en bleu. Fonctionne sur des labyrinthes carrés et hexagonaux, de tailles différentes.
+
+![Résolution de plusieurs labyrinthes](docs/screenshot-animation.png)
+
+**Tests unitaires** (`DijkstraTest`) : vérification du calcul des distances et prédécesseurs sur un graphe de test, et du rejet d'un arc de poids négatif.
+
+![Tests Dijkstra passés](docs/screenshot-tests.png)
 
 ---
 
